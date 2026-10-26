@@ -6,6 +6,7 @@
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1B607E&center=true&vCenter=true&multiline=true&width=435&lines=Hello!+I'm+a+Data+Engineer+and+AI;enthusiast.+Let's+build+together%3F" alt="Typing SVG" /></a>
 
+
 <p align="center">
   <a href="https://www.linkedin.com/in/nilsondgwm/"><img src="https://img.shields.io/badge/LinkedIn-Nilson_Lopes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/📍_Carmo,_RJ-Brazil-009C3B?style=for-the-badge" alt="Carmo, RJ, Brazil"/>
