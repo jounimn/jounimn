@@ -4,10 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=680&height=40&lines=Olá!+I'm+a+Planning+%26+MIS+Analyst+from+Brazil+🇧🇷;I+turn+messy+spreadsheets+into+trustworthy+data.;SQL+·+Power+Query+·+Python+·+ETL+·+BI;Now+building+AI+pipelines+that+cost+close+to+%240." alt="Typing SVG"/>
-  </a>
-</p>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1B607E&center=true&vCenter=true&multiline=true&width=435&lines=Hello!+I'm+a+Data+Engineer+and+AI;enthusiast.+Let's+build+together%3F" alt="Typing SVG" /></a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nilsondgwm/"><img src="https://img.shields.io/badge/LinkedIn-Nilson_Lopes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
