@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/nilsondgwm/"><img src="https://img.shields.io/badge/LinkedIn-Nilson_Lopes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/📍_Carmo,_RJ-Brazil-009C3B?style=for-the-badge" alt="Carmo, RJ, Brazil"/>
   <img src="https://komarev.com/ghpvc/?username=jounimn&style=for-the-badge&color=7c3aed&label=profile+views" alt="Profile views"/>
-</p>
+</pre>
 
 ---
 
