@@ -1,18 +1,19 @@
 <!-- ░░░ HEADER ░░░ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Nilson%20Lopes&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Data%20·%20BI%20·%20Automation%20·%20AI%20pipelines&descAlignY=60&descSize=20&animation=fadeIn" alt="Nilson Lopes — Data · BI · Automation · AI pipelines" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06080b,50:2a1510,100:ff4a2b&height=230&section=header&text=Nilson%20Lopes&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Data%20·%20BI%20·%20Automation&descAlignY=60&descSize=20&animation=fadeIn" alt="Nilson Lopes — Data · BI · Automation" width="100%"/>
 </p>
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=1B607E&center=true&vCenter=true&multiline=true&width=635&height=73&lines=Hello!+I'm+a+Data+Engineer+and+AI+enthusiast.+;Let's+build+together%3F" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=FF4A2B&center=true&vCenter=true&multiline=true&width=635&height=73&lines=Hello!+I'm+a+Planning+%26+MIS+analyst.;I+connect+operations,+data+and+automation." alt="Typing SVG" /></a>
 </p>
 
 <br> <br>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nilsondgwm/"><img src="https://img.shields.io/badge/LinkedIn-Nilson_Lopes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://jounimn.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-jounimn.github.io-FF4A2B?style=for-the-badge" alt="Portfolio"/></a>
   <img src="https://img.shields.io/badge/📍_Carmo,_RJ-Brazil-009C3B?style=for-the-badge" alt="Carmo, RJ, Brazil"/>
-  <img src="https://komarev.com/ghpvc/?username=jounimn&style=for-the-badge&color=7c3aed&label=profile+views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=jounimn&style=for-the-badge&color=ff4a2b&label=profile+views" alt="Profile views"/>
 </p>
 
 ---
@@ -21,17 +22,16 @@
 
 ```yaml
 name:        Nilson Lopes
-role:        Planning & MIS Analyst (Jr.) @ telecom / fiber ISP
+role:        Planning & MIS Analyst (Jr.) @ Alloha Fibra
 based_in:    Carmo, Rio de Janeiro, Brazil 🇧🇷
 speaks:      [Português, English (Cambridge PET), SQL, Python]
 superpower:  turning "we update this by hand every morning" into "it refreshes itself"
 believes:
   - "A KPI nobody trusts is worse than no KPI."
-  - "A design opinion without a measurement is just a vibe."
   - "If it can run on a free tier, it should."
 currently:
-  day_job:   KPIs, dailies, ETL and action plans for a B2C operation
-  side_quest: provider-agnostic AI media pipelines around n8n
+  day_job:   business metrics, Power BI dashboards, data pipelines and automations
+  also:      AI agents and RPA for routine work, with versioned and traceable code
 ```
 
 ---
@@ -49,41 +49,36 @@ timeline
     2024 : Control Desk B2C
          : Real-time ops, SLA, KPIs, dailies
          : Power Query ETL that killed manual reports
-    2026 : Planning & MIS Analyst
-         : Data pipelines, BI, action plans
-         : AI-assisted engineering on the side
+    2026 : Planning & MIS Analyst (Jr.)
+         : Metrics, Power BI dashboards, data pipelines
+         : Automations, RPA and AI agents
 ```
 
 > I learned the network from the inside, then the operation, then the data behind it. That's why my dashboards get used: I've sat on the side of the desk that reads them.
 
 ---
 
-### 🧪 Featured work
+### 🧪 Where most of my work lives: Alloha Planejamento
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The code belongs to the company and stays private, so each tool is told as a short story: what was broken, what I did, and what changed. The full version, with an animated demonstration of each one, is on the [portfolio site](https://jounimn.github.io/portfolio/).
 
-#### [📊 planning-intelligence](https://github.com/jounimn/website-analytics)
-A versioned, provider-independent data pipeline that turns a sprawling spreadsheet planning tree into a **structured, traceable semantic dataset**.
+#### Dispatch report collector
+Dispatch reports arrived scattered, and someone gathered and read them by hand every round. I started by mapping how each report arrives and what each reading needs to show. Then I wrote a collector that reads the files, standardizes the fields and puts everything in one place. Reading no longer depends on manual assembly: the team looks at organized data instead of preparing it.
 
-A sanitized public sample. The code, tests and plans are real. The organization and data are fictional stand-ins.
+#### Reddir presentation refresh
+The follow-up presentation was rebuilt by hand at every update. I listed what changed each cycle and what stayed fixed, and separated the data source from the presentation layout. That made automation possible: the numbers go in and the presentation rebuilds itself. Updating stopped being a task of every cycle and now runs on its own.
+
+#### M code parameterizer
+In Power Query, every query had values locked into the code, and changing a source or a filter meant rewriting and checking everything by hand. I identified what changed from one query to the next, took those values out of the code and created named parameters. Then I built the tool that generates the M code from them. Changing a source became adjusting a parameter, with less rework and fewer typing errors.
+
+#### [📊 Planning Intelligence](https://github.com/jounimn/website-analytics)
+Planning lived in a huge tree of spreadsheets, hard to trace and hard to reuse in analysis. I read the structure of the tree, defined what each level means, and built a versioned, provider-independent pipeline covered by tests, where every value comes out with its origin. The result is a structured dataset in which you can walk from the number back to the cell. The public sample is sanitized; names and data are fictional.
 
 `Python` · `ETL` · `Data Engineering` · `TDD`
 
-</td>
-<td width="50%" valign="top">
+### 🎲 Side project: df-DnD · on hold
 
-#### [🎨 df-design](https://github.com/jounimn/df-design)
-A Claude Code skill for web design and motion, **built from 30 production sites** loaded in a real browser and measured.
-
-The prober ships with it, so every number can be reproduced and every claim can be checked against any site you pick.
-
-`JavaScript` · `Playwright` · `Claude Code Skills`
-
-</td>
-</tr>
-</table>
+A character-sheet app that keeps the rules of each D&D edition (AD&D 2e, 5e 2014 and 5e 2024) separate, so the math is right for whichever one the table plays, with a print-ready sheet. Built with Next.js and Supabase. The project is on hold and the code is private.
 
 <details>
 <summary><b>🔬 In the lab (private, for now)</b></summary>
@@ -92,7 +87,6 @@ The prober ships with it, so every number can be reproduced and every claim can 
 | Project | What it is |
 |---|---|
 | 🏭 **Social Media Content Factory** | Provider-agnostic AI media generation (image, video, voice) orchestrated by n8n, with a provider registry, automatic fallback and scheduled health checks. The goal is zero or near-zero cost. |
-| 🐉 **df-DnD** | A tabletop RPG character sheet app that respects the rules of each edition. It covers AD&D 2e through 5e 2024 and can print the sheet to paper. Built with Next.js, React and Tailwind. |
 | 🌐 **Local business websites** | Conversion-focused sites for businesses in my region, with end-to-end tests, accessibility checks and LGPD-compliant privacy pages. |
 
 </details>
@@ -108,8 +102,8 @@ The prober ships with it, so every number can be reproduced and every claim can 
   <img src="https://img.shields.io/badge/Power_Query-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power Query"/>
   <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/ETL-pipelines-8B5CF6?style=flat-square" alt="ETL"/>
-  <img src="https://img.shields.io/badge/KPIs-dailies_%26_action_plans-7C3AED?style=flat-square" alt="KPIs"/>
+  <img src="https://img.shields.io/badge/ETL-pipelines-FF4A2B?style=flat-square" alt="ETL"/>
+  <img src="https://img.shields.io/badge/KPIs-dailies_%26_action_plans-FF9479?style=flat-square" alt="KPIs"/>
 </p>
 
 **Build & automate**
@@ -154,11 +148,11 @@ flowchart LR
 ### 📈 Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=jounimn&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" alt="GitHub streak" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=jounimn&theme=tokyonight&hide_border=true&background=0D1117&ring=FF4A2B&fire=FF4A2B&currStreakLabel=FF9479" alt="GitHub streak" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jounimn&bg_color=0D1117&color=A78BFA&line=7C3AED&point=FFFFFF&area=true&hide_border=true" alt="Contribution graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jounimn&bg_color=0D1117&color=FF9479&line=FF4A2B&point=FFFFFF&area=true&hide_border=true" alt="Contribution graph" width="100%"/>
 </p>
 
 ---
@@ -168,4 +162,4 @@ flowchart LR
   <sub>Best way to reach me: <a href="https://www.linkedin.com/in/nilsondgwm/">LinkedIn</a></sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff4a2b,50:2a1510,100:06080b&height=120&section=footer" width="100%" alt=""/>
